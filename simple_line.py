@@ -57,16 +57,10 @@ def run(
     NUM_WP - количество шагов симуляции
     '''
    
-    x0 = 0
-    y0 = 0
-    z0 = .1
-
+    x0, y0, z0 = 0, 0, .1
     INIT_XYZS = np.array([[x0, y0, z0]])
 
-    x1 = 0
-    y1 = 1
-    z1 = 1.5
-
+    x1, y1, z1 = 0, 1, 1.5
     TARGET_POS = np.zeros((NUM_WP, 3))   
 
     
